@@ -1,0 +1,562 @@
+/*fonts --------------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: "OpenSansSemibold";
+    src: url("../fonts/OpenSans-Semibold.ttf");
+}
+@font-face {
+    font-family: "TondoCorpBold";
+    src: url("../fonts/TondoCorp-Bold.ttf");
+}
+/*end fonts ----------------------------------------------------------------------------------------------------------*/
+
+body, html {
+    width: 100%;
+    min-width: 1024px;
+    height: 100%;
+    margin: 0px;
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.fulllength {
+    float: left;
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+.fulllength.header {
+    background-color: #3389c5;
+    height: 80px;
+}
+
+.fulllength.headersmall {
+    background-color: #3389c5;
+    height: 40px;
+    position: fixed;
+    z-index: 3;
+}
+
+.content {
+    width: 1020px;
+    margin: 0px auto;
+}
+
+/* header ------------------------------------------------------------------------------------------------------------*/
+.fulllength.header .menu,
+.fulllength.headersmall .menu {
+    float: right;
+    position: relative;
+    list-style: none;
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+}
+.fulllength.headersmall .menu {
+    padding: 5px 0px 0px 0px;
+    margin: 0px;
+}
+.fulllength.headersmall {
+    display: none;
+}
+
+.fulllength.header .menu li{
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    /*width: 150px;*/
+    width: 125px;
+    margin: 0px;
+}
+.fulllength.headersmall .menu li {
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    width: 130px;
+    margin: 0px;
+}
+
+.fulllength.header .menu a,
+.fulllength.headersmall .menu a {
+    color: #cff1fa;
+    text-decoration: none;
+}
+
+.fulllength.header .menu a:hover, .menu a.active, .menu a:active,
+.fulllength.headersmall .menu a:hover, .menu a.active, .menu a:active {
+    color: #fff;
+    font-family: OpenSansSemibold, Arial, Verdana, Helvetica, sans-serif;
+}
+
+.logo-img{
+    width: 219px;
+    height: 80px;
+}
+.logo-sm-img{
+    width: 111px;
+    height: 40px;
+}
+/* end header --------------------------------------------------------------------------------------------------------*/
+/*banner -------------------------------------------------------------------------------------------------------------*/
+.fulllength.banner {
+    height: 420px;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fulllength.banner .content {
+    text-align: center;
+}
+.dateinfo {
+    background-color: #fff;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    width: 780px;
+    border: 3px solid #29bfe2;
+    margin-top: 70px;
+    color: #3389c5;
+    margin: 70px auto 0px auto;
+    padding: 0 0 10px 0;
+}
+.dateinfo .head {
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 46px;
+    padding: 20px 0px 5px 0px;
+    font-weight: 100;
+}
+
+.dateinfo .sub {
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px 180px 20px 180px;
+    font-weight: 100;
+}
+.dateinfo .address a {
+    font-family: OpenSansSemibold, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #3389c5;
+    text-decoration: none;
+    border-bottom: 2px dashed #3389c5;
+}
+/*end banner ---------------------------------------------------------------------------------------------------------*/
+
+/*info -----------------------------------------------------------------------------------------------------------*/
+.fulllength.info .content .leftside {
+    float: left;
+    position: relative;
+    width: 640px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fulllength.info .content .leftside h3 {
+    color: #3389c5;
+    font-family: TondoCorpBold, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 36px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.fulllength.info .content .leftside p {
+    font-size: 16px;
+}
+.fulllength.info .content .rightside {
+    float: left;
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.fulllength.info .content .rightside .organizers {
+    border: 1px solid #e1e3de;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    text-align: center;
+}
+.fulllength.info .content .rightside .organizers h3 {
+    color: #808080;
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.fulllength.info .content .rightside .organizers ul {
+    list-style: none;
+    padding: 0px;
+}
+.fulllength.info .content .rightside .organizers ul li {
+    padding: 10px 0px;
+}
+/*end info -------------------------------------------------------------------------------------------------------*/
+/*programm ===========================================================================================================*/
+.fulllength.programm .header {
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: #29bfe2;
+    height: 120px;
+    text-align: center;
+}
+
+.fulllength.programm .header h2 {
+    color: #fff;
+    font-family: TondoCorpBold, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 36px;
+    padding: 35px 0px 0px 0px;
+    margin: 0px;
+}
+
+.fulllength.programm .content .menu {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.fulllength.programm .content .menu ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0px auto;
+    width:360px;
+
+}
+
+.fulllength.programm .content .menu ul li {
+    float: left;
+    position: relative;
+    width: 120px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.fulllength.programm .content .menu ul li a {
+    color: #3389c5;
+    text-decoration: none;
+    border-bottom: 2px dashed #3389c5;
+    font-size: 21px;
+    font-family: TondoCorpBold, Arial, Verdana, Helvetica, sans-serif;
+    padding: 5px 0px;
+}
+.fulllength.programm .content .menu ul li.active a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #29bfe2;
+}
+
+.scheduler {
+    text-align: center;
+    display: none;
+}
+
+.scheduler h3 {
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #333333;
+    font-weight: 100;
+}
+.scheduler ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.scheduler ul li {
+    padding: 10px 0px;
+    margin: 0px;
+    border-bottom: 1px dotted #e1e3de;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.scheduler ul li:nth-child(1) {
+    border-top: 1px solid #e1e3de;
+}
+
+.scheduler ul li:last-child {
+    border-bottom: 1px solid #e1e3de;
+}
+
+.scheduler ul li span:nth-child(1){
+    float: left;
+    position: relative;
+    width: 100px;
+    text-align: left;
+    font-family: OpenSansSemibold, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.scheduler ul li span:nth-child(2){
+    float: left;
+    position: relative;
+    text-align: left;
+    width: 510px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.scheduler ul li span:nth-child(3){
+    float: left;
+    position: relative;
+    text-align: left;
+    width: 370px;
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.scheduler p {
+    text-align: left;
+}
+
+.scheduler.active {
+    display: block;
+}
+.registration {
+    text-align: center;
+    padding: 60px 0px 30px 0px;
+    float: left;
+    position: relative;
+    font-size: 20px;
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.registration a {
+    color: #4d4d4d;
+    font-weight: 900;
+}
+/*end programm =======================================================================================================*/
+/*organizers =========================================================================================================*/
+.fulllength.organizers .header {
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: #29bfe2;
+    height: 120px;
+    text-align: center;
+}
+
+.fulllength.organizers .header h2 {
+    color: #fff;
+    font-family: TondoCorpBold, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 36px;
+    padding: 35px 0px 0px 0px;
+    margin: 0px;
+}
+.fulllength.pointer {
+    background-image: url("../img/pointer.png");
+    height: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+}
+.fulllength.organizers .content .organizersblock {
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.fulllength.organizers .content .organizersblock .border {
+    border-bottom: 1px dashed #e1e3de;
+    float: left;
+    width: 100%;
+    margin-top: 14px;
+    z-index: 1;
+    margin-bottom: -13px;
+}
+
+.fulllength.organizers .content {
+    padding-top: 50px;
+}
+.fulllength.organizers .content .organizersblock span.text {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 0px 10px;
+    z-index: 2;
+}
+.orgscenter {
+    float: left;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fulllength.organizers.block {
+    padding-bottom: 50px;
+}
+
+.fulllength.organizers .content table {
+    padding: 10px 0px;
+}
+.fulllength.organizers .content table td{
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+.fulllength.organizers .content table.titles td{
+    width: 340px;
+}
+.fulllength.organizers .content table.titles td.kommersant{
+    padding-top: 30px;
+}
+
+/*end organizers =====================================================================================================*/
+/*contacts ===========================================================================================================*/
+
+.fulllength.contacts .header {
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: #29bfe2;
+    height: 120px;
+    text-align: center;
+}
+
+.fulllength.contacts .header h2 {
+    color: #fff;
+    font-family: TondoCorpBold, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 36px;
+    padding: 35px 0px 0px 0px;
+    margin: 0px;
+}
+
+.fulllength.contacts .map {
+    margin-top: -13px;
+    z-index: 1;
+}
+
+.fulllength.registration {
+    background-color: #f2f4ef;
+    padding-top: 0px;
+}
+/*end contacts =======================================================================================================*/
+/*icons ==============================================================================================================*/
+.icons {
+    float: left;
+    position: relative;
+    padding: 2px 30px 0px 40px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    font-family: OpenSansLight, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #3389c5;
+    margin-top: 30px;
+}
+
+.icons:hover {
+    text-decoration: underline;
+}
+
+.icons.speech {
+    background-position: 0px -27px;
+}
+
+.icons.presentation {
+    background-position: 0px 0px;
+}
+/*end icons ==========================================================================================================*/
+/*participants =======================================================================================================*/
+.fulllength.participants .header {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+
+.fulllength.participants .header h2 {
+    color: #3389c5;
+    font-family: TondoCorpBold, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 36px;
+    padding: 35px 0px 0px 0px;
+    margin: 0px;
+}
+
+.fulllength.participants .content .speechscheduler {
+    float: left;
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+.fulllength.participants .content .speechscheduler li {
+    float: left;
+    position: relative;
+    width: 100%;
+    clear: both;
+    border-top: 1px solid #e1e3de;
+    padding: 20px 10px;
+}
+.fulllength.participants .content .speechscheduler li:last-child {
+    border-bottom: 1px solid #e1e3de;
+}
+
+.fulllength.participants .content .speechscheduler li .description {
+    float: left;
+    position: relative;
+    width: 66%;
+    font-family: OpenSansSemibold, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.fulllength.participants .content .speechscheduler li .description span {
+    float: left;
+    position: relative;
+    width: 80%;
+}
+
+.fulllength.participants .content .speechscheduler li .links {
+    float: left;
+    position: relative;
+    width: 34%;
+}
+.fulllength.participants .content .speechscheduler li .links .icons {
+    margin: 0px;
+}
+
+/*end participants ===================================================================================================*/
+/* link-default-----------------------------------*/
+.link-default{
+    display: inline-block;
+    width: 275px;
+    vertical-align: top;
+    background: #29BFE2;
+    text-align: center;
+    color: #fff;
+    font-family: "OpenSansSemibold";
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    margin: 25px 10px 10px 10px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.link-default:hover{
+    background: #13A2C3;
+}

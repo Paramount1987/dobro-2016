@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="fulllength headersmall">
+        <div class="content">
+            <a href="/"><img src="img/logo-small.png" border="0" class="logo-sm-img"/></a>
+            <ul class="menu">
+                <li><a href="#">Добро Mail.Ru</a></li>
+                <li><a href="#about">О проекте</a></li>
+                <li><a href="#programm">Программы</a></li>
+                <li><a href="#partners">Партнеры</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#">Архив</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fulllength header">
+        <div class="content">
+            <a href="/"><img src="img/logo.png" border="0" class="logo-img"/></a>
+            <ul class="menu">
+                <li><a href="#">Добро Mail.Ru</a></li>
+                <li><a href="#about">О проекте</a></li>
+                <li><a href="#programm">Программы</a></li>
+                <li><a href="#partners">Партнеры</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#">Архив</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fulllength banner">
+        <div class="content">
+            <div class="dateinfo">
+                <div class="head">9-11 февраля 2016 год</div>
+                <div class="sub">Деловое обсуждение благотворительности для развития общества</div>
+                <div class="address"><a href="#contacts">Москва, Mail.Ru Group Ленинградский проспект 39, стр. 79</a></div>
+                <div class="dateinfo-footer">
+                    <a href="#" class="link-default">Регистрация для НКО</a>
+                    <a href="#" class="link-default">Регистрация для бизнеса</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fulllength info" id="about">
+        <div class="content">
+            <div class="leftside">
+                <h3>Миссия конференции</h3>
+                <p>Увеличение эффективности диалога между некоммерческими организациями, бизнесом и обществом.</p>
+                <h3>Задача</h3>
+                <p>
+                    Повышение квалификации местных некоммерческих организаций, и, как следствие, повышение качества их работы и уровня реализуемых ими проектов.
+                    Эксперты расскажут представителям региональных НКО о современных тенденциях развития отрасли, миссии фондов, современных возможностях интернет-технологий и краудфандинга. Лидеры отрасли поделятся секретами успешной работы, а также проведут серию мастер-классов и семинаров.
+                </p>
+                <h3>Участники</h3>
+                <p>Региональные благотворительные Фонды и НКО, с которыми взаимодействуют «МегаФон», Добро Mail.Ru (Mail.Ru Group), «Металлоинвест», USM Group, Фонд «Искусство, наука и спорт».</p>
+            </div>
+            <div class="rightside">
+                <div class="organizers">
+                    <h3>Организаторы:</h3>
+                    <ul>
+                        <li><a href="#"><img src="img/logos/organizers_megafon.png" border="0"></a> </li>
+                        <li><a href="#"><img src="img/logos/organizers_mail.png" border="0"></a> </li>
+                        <li><a href="#"><img src="img/logos/organizers_metallinvest.png" border="0"></a> </li>
+                        <li><a href="#"><img src="img/logos/organizers_fund.png" border="0"></a> </li>
+                        <li><a href="#"><img src="img/logos/organizers_usm.png" border="0"></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fulllength programm" id="programm">
+        <div class="header"><h2>Программа мероприятия</h2></div>
+    </div>
+    <div class="fulllength pointer">
+    </div>
+    <div class="fulllength programm">
+        <div class="content">
+            <div class="menu days">
+                <ul>
+                    <li class="active"><a href="#" data-index="1">1 день</a></li>
+                    <li><a href="#" data-index="2">2 день</a> </li>
+                    <li><a href="#" data-index="3">3 день</a> </li>
+                </ul>
+            </div>
+            <div class="scheduler active" id="day1">
+                <h3>4 февраля, среда. О миссии и бренде.</h3>
+                <ul>
+                    <li>
+                        <span>
+                            10:00
+                        </span>
+                        <span>
+                            Вступительные слова, представление организаторов и объяснение целей семинара. Миссия на примере КСО
+                            <a href="/speech.html" class="icons speech">Выступление</a>
+                            <a href="#" class="icons presentation">Презентация</a>
+                        </span>
+                        <span>
+                            Юлия Мазанова, директор по связям с общественностью компании «Металлоинвест»<br/>
+                            Александра Бабкина,  руководитель проекта Добро Mail.Ru<br/>
+                            Максим Мотин, руководитель по социальным программам компании «МегаФон»<br/>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            10:30 - 12:30
+                        </span>
+                        <span>
+                            Воркошоп<br/>
+                            1) Благотворительность. Вчера. Сегодня. Завтра.<br/>
+                            2) Портрет эффективного сотрудника НКО
+                        </span>
+                        <span>
+                            Модератор - Евгений Горькаев, Исполнительный директор Некоммерческого Партнерства тренеров и консультантов "Девелопмент-групп", член Правления АНО "Упсала-цирк"
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            12:30 - 12:40
+                        </span>
+                        <span>
+                            Объяснение целей конференции
+                        </span>
+                        <span>
+                            Максим Мотин, руководитель по социальным программам компании «МегаФон»;<br/>
+                            Александра Бабкина,  руководитель проекта Добро Mail.Ru
+
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            12:40 – 13:20
+                        </span>
+                        <span>
+                            Миссия для бизнеса и благотворительного фонда.
+                        </span>
+                        <span>
+                            Анна Пучкова, эксперт в области благотворительности и волонтерства, учредитель БФ «Мозаика счастья».
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            13:20 – 14:20
+                        </span>
+                        <span>
+                           Ценность брэнда в некоммерческой организации
+                        </span>
+                        <span>
+                            Арина Габа, директор по фандрейзингу БФ «Подари жизнь»
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            14:20 – 15:30
+                        </span>
+                        <span>
+                           <b>Обед</b>
+                        </span>
+                        <span>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            15:30 – 16:30
+                        </span>
+                        <span>
+                           Ток-шоу со звездами: секрет успешного сотрудничества благотворительного фонда и медийных лиц.
+                        </span>
+                        <span>
+                            Участники: <br/>
+                            Алексей Кортнев, Сергей Белоголовцев, Татьяна Лазарева и другие.<br/>
+                            Ведущий – Евгений Белоголовцев
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            16:40 – 17:40
+                        </span>
+                        <span>
+                           Публичные выступления для руководителей фондов
+                        </span>
+                        <span>
+                            Петр Лидов, директор по связям с общественностью компании «МегаФон»
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="scheduler" id="day2">
+                <h3>5 февраля, четверг. Инструменты коммуникации и поиска ресурсов.</h3>
+                <ul>
+                    <li>
+                        <span>
+                            10:00
+                        </span>
+                        <span>
+                            Руководитель благотворительной организации как бренд
+                        </span>
+                        <span>
+                            Екатерина Бермант, директор фонда «Детские Сердца»
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            10:30 - 11:40
+                        </span>
+                        <span>
+                            Воркшоп «Сторителлинг»
+                        </span>
+                        <span>
+                            Евгений Горькаев, Исполнительный директор Некоммерческого Партнерства тренеров и консультантов "Девелопмент-групп", член Правления АНО "Упсала-цирк"
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            11:40 – 12:10
+                        </span>
+                        <span>
+                            О краудфандинге для благотворительных проектов
+                        </span>
+                        <span>
+                            Алексей Сахаров - руководитель благотворительных проектов Planeta.ru<br/>
+                            Василина Горовая - руководитель отдела по работе с проектами Planeta.ru
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            12:10 – 13:00
+                        </span>
+                        <span>
+                            Рунет и благотворительность: кто ваши пользователи, как они поменяются с кризисом, как с ними говорить о непопулярных темах
+                        </span>
+                        <span>
+                            Александра Бабкина,  руководитель проекта Добро Mail.Ru
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            13:00 - 13:30
+                        </span>
+                        <span>
+                           Проекты АКМР для развития социальной ответственности медиабизнеса
+                        </span>
+                        <span>
+                            Надежда Брейнман, телерадиокомпания МИР
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            13:30 – 14:30
+                        </span>
+                        <span>
+                           <b>Обед</b>
+                        </span>
+                        <span>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            14:30 – 15:10
+                        </span>
+                        <span>
+                           Как рассказать о благотворительных проектах СМИ
+                        </span>
+                        <span>
+                            Наталья Лосева, стратегический директор ГАУК «Мосгортур»
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            15:10 – 16:10
+                        </span>
+                        <span>
+                           Государственные гранты: как Фондам их получить?
+                        </span>
+                        <span>
+                            Слободская Мария Александровна, Президент Института проблем гражданского общества
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            16:10 – 17:10
+                        </span>
+                        <span>
+                           «PRO-BONO или как достать бесплатно все, что необходимо вашему НКО»
+                        </span>
+                        <span>
+                            Анна Пучкова, эксперт в области благотворительности и волонтерства, учредитель БФ «Мозаика счастья».
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            17:10 – 18:00
+                        </span>
+                        <span>
+                            Как говорить с бизнесом?
+                        </span>
+                        <span>
+                            Максим Мотин, руководитель по социальным программам компании «МегаФон»;<br/>
+                            Александра Бабкина,  руководитель проекта Добро Mail.Ru
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="scheduler" id="day3">
+                <h3>6 февраля, пятница. Бизнес и благотворительность. </h3>
+                <p>В рамках конференции впервые пройдет «Ярмарка благотворительных проектов». Каждый Фонд получит возможность для пятиминутной презентации своего благотворительного проекта. </p>
+                <p>К участию приглашаются представители бизнеса, которые смогут за один день познакомиться с проектами ведущих благотворительных фондов и НКО со всей страны. Мероприятие проходит при поддержке АКМР и Ассоциации менеджеров России.  </p>
+                <ul>
+                    <li>
+                        <span>
+                            10:00
+                        </span>
+                        <span>
+                            Добро для бизнеса
+                        </span>
+                        <span>
+                            Александра Бабкина,  руководитель проекта Добро Mail.Ru
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            10:20 – 14:00
+                        </span>
+                        <span>
+                            Презентации благотворительных фондов
+                        </span>
+                        <span>
+                            Модератор: Максим Мотин, руководитель по социальным программам компании «МегаФон»
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            14:00 – 15:00
+                        </span>
+                        <span>
+                           <b>Обед</b>
+                        </span>
+                        <span>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            15:00 – 17:30
+                        </span>
+                        <span>
+                            Презентации благотворительных фондов
+                        </span>
+                        <span>
+                            Модератор: Максим Мотин, руководитель по социальным программам компании «МегаФон»
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="fulllength registration">
+        <div class="content">
+            <div class="registration">
+                Для регистрации фонда для участия в мероприятии отправьте заявку на <a href="mailto: editor@b-soc.ru">editor@b-soc.ru</a> до 3 февраля. Участие в проекте могут принять только фонды партнеры проекта Добро Mail.Ru,
+                компаний Мегафон, Металлоинвест и USM.<br/><br/>
+                Контакты для аккредитации СМИ: 8-926-200-1160 (Алиса Белановская), 8-929-555-2018 (Максим Мотив)
+            </div>
+        </div>
+    </div>
+    <div class="fulllength organizers" id="partners">
+        <div class="header"><h2>Организаторы и партнеры</h2></div>
+    </div>
+    <div class="fulllength pointer">
+    </div>
+    <div class="fulllength organizers block">
+        <div class="content">
+            <div class="organizersblock">
+                <div class="border"></div>
+                <span class="text">Организаторы</span>
+            </div>
+            <div class="orgscenter">
+                <table align="center" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td><a href="#"><img src="img/logos/organizers_megafon.png" border="0"></a></td>
+                        <td><a href="#"><img src="img/logos/organizers_mail.png" border="0"></a> </td>
+                        <td><a href="#"><img src="img/logos/organizers_metallinvest.png" border="0"></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="orgscenter">
+                <table align="center" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td><a href="#"><img src="img/logos/organizers_fund.png" border="0"></a></td>
+                        <td><a href="#"><img src="img/logos/organizers_usm.png" border="0"></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="organizersblock">
+                <div class="border"></div>
+                <span class="text">Партнеры</span>
+            </div>
+            <div class="orgscenter">
+                <table align="center" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td><a href="#"><img src="img/logos/akmp.jpg" border="0"></a></td>
+                        <td><a href="#"><img src="img/logos/metropol.jpg" border="0"></a></td>
+                        <td><a href="#"><img src="img/logos/managers.jpg" border="0"></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="orgscenter">
+                <table class="titles" align="center" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td><a href="#"><img src="img/logos/devgroup.jpg" border="0"></a></td>
+                        <td class="kommersant"><a href="#"><img src="img/logos/lifewithnotlimit.jpg" border="0"></a></td>
+                        <td class="kommersant"><a href="#"><img src="img/logos/kommersant.jpg" border="0"></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="organizersblock">
+                <div class="border"></div>
+                <span class="text">Информационные партнеры</span>
+            </div>
+            <div class="orgscenter">
+                <table align="center" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td><a href="#"><img src="img/logos/vesti.jpg" border="0"></a></td>
+                        <td><a href="#"><img src="img/logos/bisnes.jpg" border="0"></a></td>
+                        <td><a href="#"><img src="img/logos/filantrop.jpg" border="0"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="fulllength contacts" id="contacts">
+        <div class="header"><h2>Контакты</h2></div>
+    </div>
+    <div class="fulllength pointer">
+    </div>
+    <div class="fulllength contacts">
+        <div id="map" class="map" style="width: 100%; height: 400px"></div>
+    </div>
+    <div class="fulllength registration">
+        <div class="content">
+            <div class="registration">
+                Для регистрации фонда для участия в мероприятии отправьте заявку на <a href="mailto: editor@b-soc.ru">editor@b-soc.ru</a> до 3 февраля. Участие в проекте могут принять только фонды партнеры проекта Добро Mail.Ru,
+                компаний Мегафон, Металлоинвест и USM.<br/><br/>
+                Контакты для аккредитации СМИ: 8-926-200-1160 (Алиса Белановская), 8-929-555-2018 (Максим Мотив)
+            </div>
+        </div>
+    </div>
+</body>
+</html>
